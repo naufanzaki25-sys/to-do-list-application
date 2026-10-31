@@ -14,7 +14,7 @@ const path = require('path');
 
 const SUPABASE_URL = process.env.SUPABASE_URL;
 const SUPABASE_KEY = process.env.SUPABASE_ANON_KEY;
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 7860;
 
 let supabase = null;
 if (SUPABASE_URL && SUPABASE_KEY && !SUPABASE_URL.includes('xxxx')) {
